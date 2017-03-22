@@ -39,21 +39,9 @@ class Tweet # tweets with columns message and username and id
   # If it's a new instance
     # Inssert a new row in the DB
   # otherwise
-    # update the existing row with my new values 
+    # update the existing row with my new values
   end
 end
 
 t = Tweet.new({'username'=> 'coffeedad', 'message' => 'Hello'})
 t.save
-# class User # users
-#
-#
-# end
-#
-# class Wolf # wolves
-#
-# end
-#
-# class Fish # fishes
-#
-# end

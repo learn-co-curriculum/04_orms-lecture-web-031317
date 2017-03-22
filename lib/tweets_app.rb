@@ -10,7 +10,7 @@ class TweetsApp
 
   def render(tweets)
     tweets.each.with_index(1) do |tweet, i|
-      puts "#{i}. #{tweet.username} says: #{tweet.message}"
+      puts "#{i}. #{tweet.description}"
     end
   end
 end
